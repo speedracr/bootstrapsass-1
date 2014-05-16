@@ -1410,8 +1410,8 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #333333;
-  background-color: #eeeeee;
+  color: #141414;
+  background-color: white;
 }
 
 /* line 39, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -3170,7 +3170,7 @@ th {
 }
 /* line 56, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table .table {
-  background-color: #eeeeee;
+  background-color: white;
 }
 
 /* line 70, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_tables.scss */
@@ -3840,7 +3840,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #545454;
 }
 
 @media (min-width: 768px) {
@@ -5383,8 +5383,8 @@ tbody.collapse.in {
 
 /* line 393, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: white;
+  border-color: #eeeeee;
 }
 /* line 397, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
@@ -5411,7 +5411,7 @@ tbody.collapse.in {
 /* line 423, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #555555;
-  background-color: #e7e7e7;
+  background-color: #eeeeee;
 }
 /* line 431, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
@@ -5433,11 +5433,11 @@ tbody.collapse.in {
 /* line 450, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  border-color: #eeeeee;
 }
 /* line 460, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #e7e7e7;
+  background-color: #eeeeee;
   color: #555555;
 }
 @media (max-width: 767px) {
@@ -5453,7 +5453,7 @@ tbody.collapse.in {
   /* line 480, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555555;
-    background-color: #e7e7e7;
+    background-color: #eeeeee;
   }
   /* line 488, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -7891,4 +7891,42 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* line 10, ../sass/styles.sass */
+img.logo {
+  height: 80px;
+  margin-top: -4px;
+}
+
+/* line 14, ../sass/styles.sass */
+.logo-wrapper {
+  margin: 0 2em 0 0;
+}
+
+/* line 17, ../sass/styles.sass */
+ul.nav {
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1.4em 0 0.4em 0;
+}
+/* line 24, ../sass/styles.sass */
+ul.nav li {
+  padding-right: 1.8em;
+}
+
+/* line 30, ../sass/styles.sass */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 5em 0 2em 0;
+  text-align: center;
+  color: white;
+  min-height: 4em;
+  background: url("../img/roadster_1.jpg") no-repeat 0 -60px;
+  background-size: cover;
+}
+/* line 41, ../sass/styles.sass */
+.hero h2 {
+  margin: 6em 0 6em 0;
 }
