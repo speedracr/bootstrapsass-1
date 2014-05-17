@@ -7949,7 +7949,6 @@ footer {
 
 /* line 56, ../sass/styles.sass */
 img.logotype {
-  margin: 0.8em 0 0 -10px;
+  margin: 4em 0 0 -10px;
   width: 250px;
-  fill: white;
 }
