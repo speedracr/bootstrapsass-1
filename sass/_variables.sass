@@ -1,5 +1,6 @@
 @import bootstrap/variables
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700)
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700)
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700)
 // Override Bootstrap variables here (defaults from bootstrap-sass v3.1.1.1):
 
 // a flag to toggle asset pipeline / compass integration
@@ -21,6 +22,8 @@ $gray-light:             lighten(#000, 60%)   // #999
 $gray-lighter:           lighten(#000, 93.5%) // #eee
 $white:                  #fff
 
+$brand-primary:          #186FA8
+
 // $brand-primary:         #428bca
 // $brand-success:         #5cb85c
 // $brand-info:            #5bc0de
@@ -38,9 +41,10 @@ $text-color:            $gray-dark
 $text-color-inverse:    $white
 
 //* Global textual link color.
-// $link-color:            $brand-primary
+$link-color:            $gray-darker
 //* Link hover color set via `darken()` function.
-// $link-hover-color:      darken($link-color, 15%)
+
+$link-hover-color:      darken($link-color, 15%)
 
 //== Typography
 //
@@ -52,21 +56,21 @@ $font-family-sans-serif:  'Lato', sans-serif
 // $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace
 $font-family-base:        $font-family-sans-serif
 
-// $font-size-base:          14px
-// $font-size-large:         ceil(($font-size-base * 1.25)) // ~18px
-// $font-size-small:         ceil(($font-size-base * 0.85)) // ~12px
+$font-size-base:          16px
+$font-size-large:         ceil(($font-size-base * 1.25)) // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) // ~12px
 
-// $font-size-h1:            floor(($font-size-base * 2.6)) // ~36px
-// $font-size-h2:            floor(($font-size-base * 2.15)) // ~30px
-// $font-size-h3:            ceil(($font-size-base * 1.7)) // ~24px
-// $font-size-h4:            ceil(($font-size-base * 1.25)) // ~18px
-// $font-size-h5:            $font-size-base
-// $font-size-h6:            ceil(($font-size-base * 0.85)) // ~12px
+$font-size-h1:            floor(($font-size-base * 2.6)) // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) // ~18px
+$font-size-h5:            $font-size-base
+$font-size-h6:            ceil(($font-size-base * 0.85)) // ~12px
 
-//* Unit-less `line-height` for use in components like buttons.
-// $line-height-base:        1.428571429 // 20/14
-//* Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
-// $line-height-computed:    floor(($font-size-base * $line-height-base)) // ~20px
+// * Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.428571429 // 20/14
+// * Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) // ~20px
 
 //* By default, this inherits from the `<body>`.
 // $headings-font-family:    inherit

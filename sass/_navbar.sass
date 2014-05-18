@@ -1,30 +1,24 @@
-// navbar styling
-$navbar-height:                    50px
-$navbar-margin-bottom:             $line-height-computed
-$navbar-border-radius:             $border-radius-base
-$navbar-padding-horizontal:        floor(($grid-gutter-width / 2))
-$navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2)
-$navbar-collapse-max-height:       340px
+// Navbar and logo
+img.logo
+  height: 80px
+  margin-top: -4px
+  -webkit-filter: drop-shadow(0 0 2px rgba(255,255,255,1.0))
+  filter: drop-shadow(0 0 2px rgba(255,255,255,1.0))
 
-$navbar-default-color:             red
-$navbar-default-bg:                #000
-$navbar-default-border:            darken($navbar-default-bg, 6.5%)
+.logo-wrapper
+  margin: 0 2em 0 0
 
-// Navbar links
-$navbar-default-link-color:                #777
-$navbar-default-link-hover-color:          #333
-$navbar-default-link-hover-bg:             transparent
-$navbar-default-link-active-color:         #555
-$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%)
-$navbar-default-link-disabled-color:       #ccc
-$navbar-default-link-disabled-bg:          transparent
+ul.nav
+  font-size: 17px
+  font-weight: 700
+  text-transform: uppercase
 
-// Navbar brand label
-$navbar-default-brand-color:               $navbar-default-link-color
-$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%)
-$navbar-default-brand-hover-bg:            transparent
+  padding: 1.4em 0 0.4em 0
 
-// Navbar toggle
-$navbar-default-toggle-hover-bg:           #ddd
-$navbar-default-toggle-icon-bar-bg:        #888
-$navbar-default-toggle-border-color:       #ddd
+  li
+    padding-right: 1.8em
+
+.navbar
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7)
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.7)
+  box-shadow: 0 0 4px rgba(0,0,0,0.7)
